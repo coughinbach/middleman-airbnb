@@ -1,17 +1,14 @@
 #home {
-  background-color: #D23333;
-  color: white;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  p {
-    margin-top: 1.5em;
-  }
-  a {
-    color: rgba(0,0,0,0.4);
+  background-color: white;
+  color: #333333;
+  h2 {
+    margin: 40px 0px;
     font-weight: bold;
-    font-size: 16px;
+  }
+    .btn-danger {
+    margin: 50px 0px;
+    padding: 13px 20px;
   }
 }
+
+

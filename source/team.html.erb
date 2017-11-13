@@ -1,0 +1,17 @@
+---
+title: Le Wagon - Middleman - Team
+---
+
+<div id="team">
+  <ul class="list-inline text-center">
+  <h1>we made dis <i class="fa fa-hand-peace-o"></i> check our git</h1>
+    <% ["coughinbach", "RoniSharabi"].each do |gh_username| %>
+      <li>
+        <% link_to "https://github.com/#{gh_username}", class: "avatar" do %>
+          <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{gh_username}", class: "img-circle" %>
+        <% end %>
+        <h2><%= gh_username.downcase %></h2>
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,43 @@
+#show-banner {
+  height: 300px;
+  background-position: center;
+}
+
+#show {
+  background-color: white;
+  h1 {
+    font-size: 24px;
+    color: $blue;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+    font-weight: lighter;
+  }
+  img {
+    width: 150px;
+    border-radius: 50%;
+    // box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+    border: 7px solid #F4F4F4;
+    margin: 20px;
+  }
+  .container {
+    height: 500px;
+    padding-top: 30px;
+  }
+  .flat-header {
+    border: 1px solid $light-gray;
+    background-color: white;
+  }
+  .flat-info {
+    margin-left: -50px;
+    padding-top: 30px;
+    float: left;
+  }
+  .fa-star{
+    color: $yellow;
+  }
+}
+
